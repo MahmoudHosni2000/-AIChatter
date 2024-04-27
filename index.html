@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AIChatter</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="imgs/ChatGPT.png" type="imgs/png" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Josefin+Sans:wght@300&family=Merienda:wght@500&family=Pacifico&display=swap');
+  </style>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="main-title">Chat with me</div>
+    <div class="parent-box">
+      <div class="chat-box">
+        <div class="container">
+          <input id="word-input" type="text" placeholder="Send a message .." />
+          <input id="submit-btn" type="submit" />
+        </div>
+      </div>
+      <div class="Result-box">
+        <p class="p-0">Hi 👋. I am Sage - a bot powered by OpenAI's ChatGPT.</p>
+        <p class="p-1">You can talk to me about anything, ranging from writing code to deciding what to cook for dinner.
+          I
+          can also chat in languages other than English.</p>
+      </div>
+    </div>
+    <!-- AXIOS : used to send API request by js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
